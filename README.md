@@ -1,4 +1,4 @@
-This project was built for a medium blog, found here: 
+This Project Was Built For a Medium Blog
 
 ![working](https://github.com/ethancollins0/capstone-backend/blob/master/GitFiles/Home.png)
 
