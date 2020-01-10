@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import "./app.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends Component {
+  componentDidMount() {
+    window.addEventListener("scroll", () => {
+      const topBorder = document
+        .getElementById("navbar-container")
+        .getBoundingClientRect().top;
+
+      topBorder >= 0
+        ? document.getElementById("navbar").classList.remove("fixed")
+        : document.getElementById("navbar").classList.add("fixed");
+    });
+  }
+
+  componentWillUnmount() {
+    window.removeEventListener("scroll");
+  }
+
+  render() {
+    return (
+      <div id="App">
+        <section id="navbar-container">
+          <nav id="navbar"></nav>
+        </section>
+      </div>
+    );
+  }
 }
-
-export default App;
