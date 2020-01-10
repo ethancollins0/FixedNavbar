@@ -1,4 +1,4 @@
-This Project Was Built For a Medium Blog
+This Project Was Built For a Medium Blog: https://medium.com/@ethantcollins98/making-a-sometimes-fixed-navbar-157013dfc4a5
 
 ![working](https://raw.githubusercontent.com/ethancollins0/FixedNavbar/master/mvp.gif)
 
