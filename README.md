@@ -1,6 +1,6 @@
 This Project Was Built For a Medium Blog
 
-![working](https://github.com/ethancollins0/capstone-backend/blob/master/GitFiles/Home.png)
+![working](https://raw.githubusercontent.com/ethancollins0/FixedNavbar/master/mvp.gif)
 
 
 
